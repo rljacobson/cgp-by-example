@@ -1,0 +1,19 @@
+[book]
+title = "Context Generic Programming by Example: A Quick and Dirty Guide"
+authors = ["Robert Jacobson"]
+language = "en"
+src = "src"
+
+[rust]
+edition = "2021"
+
+[build]
+create-missing = false
+
+[output.html.playground]
+# The playground interferes with inline highlighting.
+runnable = false
+
+[preprocessor.inline-highlighting]
+after = ["links"]
+default-language = "rust"
